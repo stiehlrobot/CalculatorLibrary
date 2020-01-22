@@ -18,3 +18,6 @@ class TestCalculator:
 
     def test_division(self):
         assert 500 == calculator.divide(25000, 50)
+
+    def test_squareroot(self):
+        assert 5 == calculator.square_root(25)

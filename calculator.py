@@ -22,3 +22,10 @@ def divide(first_term, divisor):
 
 def square_root(first_term):
     return math.sqrt(first_term)
+
+
+def is_negative(first_term):
+    if first_term < 0:
+        return True
+    else:
+        return False

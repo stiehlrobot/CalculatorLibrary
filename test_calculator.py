@@ -21,3 +21,7 @@ class TestCalculator:
 
     def test_squareroot(self):
         assert 5 == calculator.square_root(25)
+
+    def test_is_negative(self):
+        assert True == calculator.is_negative(-5)
+        assert False == calculator.is_negative(5)

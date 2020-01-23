@@ -25,3 +25,9 @@ class TestCalculator:
     def test_is_negative(self):
         assert True is calculator.is_negative(-5)
         assert False is calculator.is_negative(5)
+
+    def test_is_positive(self):
+        assert True is calculator.is_positive(5)
+        assert False is calculator.is_positive(-5)
+
+    
